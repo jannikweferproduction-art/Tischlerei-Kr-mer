@@ -1,0 +1,9 @@
+{
+  "name": "tischlerei-kroemer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website der Krömer Holzverarbeitung GmbH – Möbelbau und Innenausbau, Oldenburg",
+  "scripts": {
+    "start": "npx --yes serve ."
+  }
+}
