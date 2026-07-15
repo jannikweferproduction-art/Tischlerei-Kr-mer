@@ -184,7 +184,7 @@ header{
   background:
     linear-gradient(90deg, rgba(8,12,32,0.92) 0%, rgba(8,12,32,0.7) 34%, rgba(8,12,32,0.32) 60%, rgba(8,12,32,0.1) 80%, rgba(8,12,32,0.04) 100%),
     linear-gradient(0deg, rgba(6,9,26,0.55), rgba(6,9,26,0.1) 40%),
-    url('workshop-bg.webp?v=1') center/cover no-repeat;
+    url('workshop-bg.webp?v=2') center/cover no-repeat;
 }
 .hero .wrap{
   position:relative; z-index:1;
