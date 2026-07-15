@@ -14,7 +14,7 @@
   --text-1:#161b2e;
   --text-2:#3c4468;
   --text-3:#6b7291;
-  --accent-text:#c8102e;
+  --accent-text: var(--violet);
   --radius:20px;
   --radius-sm:12px;
 }
@@ -88,7 +88,7 @@ header, footer, .hero, .page-hero, .on-dark{
   --panel-strong:rgba(255,255,255,0.08);
   --border:rgba(255,255,255,0.14);
   --border-strong:rgba(255,255,255,0.28);
-  --accent-text: var(--cyan);
+  --accent-text: var(--text-1);
 }
 
 /* ---------- CARDS ---------- */
@@ -127,7 +127,7 @@ header{
 .brand-text strong{display:block; font-family:'Space Grotesk',sans-serif; font-size:16.5px; font-weight:600; white-space:nowrap;}
 .nav-links ul{display:flex; gap:19px; list-style:none;}
 .nav-links ul a{color:var(--text-2); text-decoration:none; font-size:14px; white-space:nowrap; transition:color 0.15s ease;}
-.nav-links ul a:hover, .nav-links ul a.active{color:var(--cyan);}
+.nav-links ul a:hover, .nav-links ul a.active{color:var(--text-1);}
 .nav-links{display:flex; align-items:center; gap:22px;}
 
 .nav-toggle{
@@ -159,7 +159,7 @@ header{
     display:block; padding:15px 0;
     color:var(--text-2); text-decoration:none; font-size:15.5px;
   }
-  .mobile-menu ul a:hover, .mobile-menu ul a.active{color:var(--cyan);}
+  .mobile-menu ul a:hover, .mobile-menu ul a.active{color:var(--text-1);}
   .mobile-menu .btn-primary{display:flex; justify-content:center; margin:18px 24px 22px;}
 
   header.menu-open{border-bottom-color:transparent;}
@@ -217,7 +217,7 @@ header{
 }
 .hero-stats .stat-item:last-child{border-right:none; padding-right:0;}
 .hero-stats .stat-item strong{color:var(--text-1); font-weight:600; font-size:14px;}
-.hero-stats .stars{color:var(--cyan); letter-spacing:2px; font-size:13px;}
+.hero-stats .stars{color:var(--text-1); letter-spacing:2px; font-size:13px;}
 @media (max-width:700px){ .hero-stats{gap:14px;} .hero-stats .stat-item{padding-right:14px;} }
 
 .rings{width:100%; max-width:420px; margin:0 auto; display:block; filter:drop-shadow(0 0 34px rgba(28,42,94,0.35));}
@@ -231,7 +231,7 @@ header{
 .page-hero .wrap{position:relative; z-index:1; max-width:760px;}
 .page-hero h1{
   font-size:clamp(28px,4vw,42px); margin:14px 0 16px; line-height:1.1;
-  color:var(--cyan);
+  color:var(--text-1);
 }
 .page-hero p.lead{color:var(--text-2); font-size:16.5px; max-width:56ch;}
 
@@ -374,7 +374,7 @@ header{
 footer{background:linear-gradient(180deg, var(--bg-void), var(--bg-deep)); color:var(--text-2); padding:48px 0 28px; font-size:13.5px; border-top:1px solid var(--border);}
 .foot-grid{display:flex; justify-content:space-between; flex-wrap:wrap; gap:24px; padding-bottom:28px; border-bottom:1px solid var(--border);}
 .foot-grid a{color:var(--text-2); text-decoration:none; display:block; margin-bottom:6px; transition:color 0.15s ease;}
-.foot-grid a:hover{color:var(--cyan);}
+.foot-grid a:hover{color:var(--text-1);}
 .foot-bottom{padding-top:20px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;}
 
 /* ---------- LEADERSHIP ---------- */
